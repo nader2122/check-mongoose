@@ -117,16 +117,17 @@ const queryChain = async()=>{
                .sort({name :1})
                .limit(2)
                .select({age:0})
-               .exec((err, data) => {
-     try {
-         console.log(data)
+               .exec()
+     .then (doc=>{
+         console.log(doc)
          
-     } catch (err) {
-       console.log(err)
+     })
+      .catch (err=> {
+       console.error(err)
         
-     }
+     })
       
-        })
+        
   };
   queryChain()
 
