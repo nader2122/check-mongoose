@@ -65,6 +65,28 @@ try {
 //findId()
 
 
+//--find/edit/save
+
+const FindEditSave=async()=>{
+    var Foods='melokhia'
+    await Person.findById({_id:'61b8b7f731c2b94fd1fb5efa'},(error,result)=>{
+        if(error){
+            console.log(error)
+        }else{
+            result.favoriteFoods.push(Foods)
+            result.save((error,update)=>{
+                if(error){
+                    console.log(error)
+                }else{
+                    console.log(update)
+                }
+            })
+        }
+    })
+}
+
+//FindEditSave()
+
 
 //--find one and update --//
 const upone ={name:'salih'}
@@ -106,7 +128,7 @@ const maryDelete= async()=>{
         }
     })
 }
-// maryDelete()
+//maryDelete()
 
 //--chain search--//
 
@@ -129,7 +151,7 @@ const queryChain = async()=>{
       
         
   };
-  queryChain()
+  //queryChain()
 
 app.listen(Port,(err)=>{
   err ? console.log(err):console.log(`server is running in ${Port}`)

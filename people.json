@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "61b8af1f5b8faca051f07305"
+  },
+  "name": "nader",
+  "age": 31,
+  "favoriteFoods": [
+    "couscous",
+    "50",
+    "spaghitti"
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b8b7dae7564c002bb56029"
+  },
+  "name": "sam",
+  "age": 20,
+  "favoriteFoods": [
+    "couscous",
+    "soupe",
+    "spaghitti"
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b8b7f731c2b94fd1fb5efa"
+  },
+  "name": "sami",
+  "age": 28,
+  "favoriteFoods": [
+    "couscous",
+    "spaghitti",
+    "melokhia",
+    "melokhia",
+    "melokhia",
+    "melokhia",
+    "melokhia",
+    "melokhia",
+    "melokhia",
+    "melokhia",
+    "melokhia"
+  ],
+  "__v": 9
+},{
+  "_id": {
+    "$oid": "61b8b89ade082907975165d8"
+  },
+  "name": "salouma",
+  "age": 18,
+  "favoriteFoods": [
+    "hargma",
+    "postuler"
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61b8f9c94a5053158ca24d5a"
+  },
+  "name": "salih",
+  "age": 20,
+  "favoriteFoods": [
+    "hargma",
+    "3ejja"
+  ],
+  "__v": 0
+}]
